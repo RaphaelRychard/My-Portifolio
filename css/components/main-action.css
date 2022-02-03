@@ -1,0 +1,12 @@
+.main-action {
+    padding: 30px 0;
+    color: var(--Color-Tesxt);
+
+    display: block;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.main-action:hover {
+    background-color: var(--BGSecond) ;
+}
