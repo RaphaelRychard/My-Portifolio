@@ -1,0 +1,50 @@
+.main-menuHamburguer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+    height: 50px;
+    padding: 5px;
+
+    background-color: transparent;
+    transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
+}
+
+.main-menuHamburguer:focus {
+    background-color: var(--BGSecond) ;
+    transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
+    width: 100%;
+    height: 60px;
+}
+
+.main-menuHamburguer:hover {
+    background-color: var(--BGSecond) ;
+}
+
+.main-menuHamburguer .menu{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-menuHamburguer .menu:nth-child(1) {
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.main-menuHamburguer .menu:nth-child(2) {
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.main-menuHamburguer .menu:nth-child(3) {
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+}
+
