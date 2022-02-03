@@ -1,0 +1,26 @@
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main-navigation .nav {
+    display: none;
+    background-color: var(--BGDefault);
+}
+
+.main-navigation .main-menuHamburguer:focus ~ .nav {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-navigation .nav .main-action {
+    text-align: center;
+}
+
+.main-navigation .nav .main-action:hover {
+    transition: all cubic-bezier(1,1.31,.39,1.33) 0.500s;
+}
