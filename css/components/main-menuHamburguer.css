@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-evenly;
-    height: 100px;
-    padding: 25px 30px;
+    height: 80px;
+    padding: 15px 30px;
 
     background-color: transparent;
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
@@ -31,7 +31,7 @@
 }
 
 .main-menuHamburguer .menu:nth-child(1) {
-    height: 4px;
+    height: 5px;
     width: 40px;
     border-radius: 10px;
     transition: width cubic-bezier(1,0.5,.39,1.33) 0.750s;
@@ -41,7 +41,7 @@
     } 
 
 .main-menuHamburguer .menu:nth-child(2) {
-    height: 4px;
+    height: 5px;
     width: 40px;
     border-radius: 10px;
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.700s;
@@ -56,7 +56,7 @@
     } 
 
 .main-menuHamburguer .menu:nth-child(3) {
-    height: 4px;
+    height: 5px;
     width: 40px;
     border-radius: 10px;
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;

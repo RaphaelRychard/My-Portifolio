@@ -8,5 +8,6 @@
 }
 
 .main-action:hover {
-    background-color: var(--BGSecond) ;
+    background-color: var(--BGSecond);
+    transition: all cubic-bezier(1,1.31,.39,1.33) 0.700s;
 }
