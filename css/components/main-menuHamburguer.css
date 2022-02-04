@@ -47,7 +47,12 @@
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.700s;
 }
     .main-menuHamburguer:focus > .menu:nth-child(2) {
-        rotate: -50deg;
+        transform:rotate(50deg);
+        -ms-transform:rotate(50deg);
+        -moz-transform:rotate(50deg); 
+        -webkit-transform:rotate(50deg);
+        -o-transform:rotate(50deg);
+        
     } 
 
 .main-menuHamburguer .menu:nth-child(3) {
@@ -57,6 +62,10 @@
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
 }
     .main-menuHamburguer:focus > .menu:nth-child(3) {
-        rotate: 50deg;
+        transform:rotate(-50deg);
+        -ms-transform:rotate(-50deg);
+        -moz-transform:rotate(-50deg);
+        -webkit-transform:rotate(-50deg);
+        -o-transform:rotate(-50deg);
         margin: -3px;
     } 
