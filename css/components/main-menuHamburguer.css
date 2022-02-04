@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-evenly;
-    height: 70px;
-    padding: 10px 30px;
+    height: 100px;
+    padding: 25px 30px;
 
     background-color: transparent;
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
@@ -14,7 +14,7 @@
     background-color: var(--BGSecond) ;
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
     width: 100%;
-    height: 65px;
+    height: 80px;
     z-index: 3000;
 }
 
