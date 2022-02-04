@@ -1,0 +1,9 @@
+.main-button {
+    background-color: var(--BGSecond);
+    padding: 15px 20px;
+    margin-top: 35px;
+
+    color: white;
+    display: inline-flex;
+    text-decoration: none;
+}
