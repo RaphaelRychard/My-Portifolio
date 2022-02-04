@@ -1,0 +1,8 @@
+.main-header {
+    position: relative;
+    z-index: 0;
+}
+
+.main-header .logo{
+    position: absolute;
+}

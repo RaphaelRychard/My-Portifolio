@@ -8,6 +8,7 @@
 .main-navigation .nav {
     display: none;
     background-color: var(--BGDefault);
+    z-index: 4000;
 }
 
 .main-navigation .main-menuHamburguer:focus ~ .nav {

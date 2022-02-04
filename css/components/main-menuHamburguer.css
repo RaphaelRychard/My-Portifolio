@@ -3,9 +3,8 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-evenly;
-
-    height: 50px;
-    padding: 5px;
+    height: 70px;
+    padding: 10px 30px;
 
     background-color: transparent;
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
@@ -15,7 +14,8 @@
     background-color: var(--BGSecond) ;
     transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
     width: 100%;
-    height: 60px;
+    height: 65px;
+    z-index: 3000;
 }
 
 .main-menuHamburguer:hover {
@@ -34,17 +34,29 @@
     height: 4px;
     width: 40px;
     border-radius: 10px;
+    transition: width cubic-bezier(1,0.5,.39,1.33) 0.750s;
 }
+    .main-menuHamburguer:focus > .menu:nth-child(1) {
+        width: 0px;
+    } 
 
 .main-menuHamburguer .menu:nth-child(2) {
     height: 4px;
     width: 40px;
     border-radius: 10px;
+    transition: all cubic-bezier(1,1.31,.39,1.33) 0.700s;
 }
+    .main-menuHamburguer:focus > .menu:nth-child(2) {
+        rotate: -50deg;
+    } 
 
 .main-menuHamburguer .menu:nth-child(3) {
     height: 4px;
     width: 40px;
     border-radius: 10px;
+    transition: all cubic-bezier(1,1.31,.39,1.33) 0.300s;
 }
-
+    .main-menuHamburguer:focus > .menu:nth-child(3) {
+        rotate: 50deg;
+        margin: -3px;
+    } 
