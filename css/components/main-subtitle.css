@@ -1,0 +1,12 @@
+.main-subtitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0.15em;
+
+    color: var(--BGSecond);
+    text-shadow: 2px 2px 0 #00001818;
+}
+
+.main-subtitle.center{
+    text-align: center;
+}
