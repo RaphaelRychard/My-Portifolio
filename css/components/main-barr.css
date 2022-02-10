@@ -1,0 +1,36 @@
+.main-barr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 95px;
+    height: 25px;
+} 
+
+.main-barr.-textBarr {
+    padding: 0px 10px;
+    color: white;
+
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.main-barr.-porcent{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    color: #1b1b1e63;
+}
+
+    .main-barr.-BGhtml {
+        background-color: var(--BGhtml);
+    }
+    .main-barr.-BGcss {
+        background-color: var(--BGcss);
+    }
+    .main-barr.-BGphp {
+        background-color: var(--BGphp);
+    }
+    .main-barr.-BGps {
+        background-color: var(--BGps);
+    }
+
