@@ -1,0 +1,13 @@
+.main-skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    
+    height: 25px;
+    max-width: 390px;
+    min-width: 320px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+}
