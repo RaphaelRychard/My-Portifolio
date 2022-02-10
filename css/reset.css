@@ -11,9 +11,20 @@
     --BGDefault: #1B1B1E;
     --BGSecond: #0BA3DC;
     --Color-Tesxt: #EBEBEB;
+
+    --BGhtml: #C70000;
+    --BGhtmlsecundary: #F90404;
+
+    --BGcss: #2673A7;
+    --BGcsssecundary: #3598DB;
+
+    --BGphp: #3F4055;
+    --BGphpsecundery: #5A68A5;
+
+    --BGps: #356BA1;
+    --BGpssecundary: #4288D0;
 }
 
 body {
     font-family: var(--FontDefault);
- 
 }
