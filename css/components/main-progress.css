@@ -1,0 +1,35 @@
+.main-progress {
+    background-color: #ffffff;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100%;
+}
+    .main-progress.-barrProgressHTML::-moz-progress-bar { 
+        background-color: var(--BGhtmlsecundary);
+    }
+    .main-progress.-barrProgressCSS::-moz-progress-bar { 
+        background-color: var(--BGcsssecundary);
+    }
+    .main-progress.-barrProgressPHP::-moz-progress-bar { 
+        background-color: var(--BGphpsecundery);
+    }
+    .main-progress.-barrProgressPS::-moz-progress-bar { 
+        background-color: var(--BGpssecundary);
+    }
+
+.main-progress::-webkit-progress-bar {
+    background-color: #ffffff;
+}
+    .main-progress.-barrProgressHTML::-webkit-progress-value {
+        background-color: var(--BGhtmlsecundary);
+    }
+    .main-progress.-barrProgressCSS::-webkit-progress-value {
+        background-color: var(--BGcsssecundary);
+    }
+    .main-progress.-barrProgressPHP::-webkit-progress-value {
+        background-color: var(--BGphpsecundery);
+    }
+    .main-progress.-barrProgressPS::-webkit-progress-value {
+        background-color: var(--BGpssecundary);
+    }
